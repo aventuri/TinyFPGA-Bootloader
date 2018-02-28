@@ -1,0 +1,17 @@
+#set_io -nowarn pin_clk    35
+set_io -nowarn BTN_N      10
+
+#set_io -nowarn pin_led    11
+# the RGB PWM leds
+set_io -nowarn pin_ledRGB0    39
+set_io -nowarn pin_ledRGB1    40
+set_io -nowarn pin_ledRGB2    41
+
+set_io -nowarn pin_32_sck 15
+set_io -nowarn pin_30_cs  16
+set_io -nowarn pin_31_mosi 14
+set_io -nowarn pin_29_miso 17
+
+set_io -nowarn pin_usbp   43
+set_io -nowarn pin_usbn   36
+set_io -nowarn pin_pu     38
